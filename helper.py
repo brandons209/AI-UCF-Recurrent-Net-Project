@@ -17,7 +17,7 @@ def load_script(path):
 
 #saves dictionary to file for use with test_model.py
 def save_dict(dict, filename):
-    dir = 'data/dicts/' + filename
+    dir = 'data/dictionaries/' + filename
     with open(dir, 'wb') as file:
         pickle.dump(dict, file)
 
