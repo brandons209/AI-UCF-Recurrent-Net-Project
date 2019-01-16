@@ -23,7 +23,7 @@ def save_dict(dict, filename):
 
 #loads dictionary from file
 def load_dict(filename):
-    dir = 'data/dicts/' + filename
+    dir = 'data/dictionaries/' + filename
     with open(dir, 'rb') as file:
          dict = pickle.load(file)
     return dict
